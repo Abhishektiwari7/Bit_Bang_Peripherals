@@ -34,4 +34,7 @@ uint8_t i2c_Address = 0x01,register_Address = 0x02, data = 0x03,length = 1;
 send_One_Byte_Data_i2c (i2c_Address,register_Address,data,length);
 uint8_t receive_data = receive_One_Byte_Data_i2c (i2c_Address,register_Address,data,length);
 ////////////////////////////////
+
+//usb example-------------------
+////////////////////////////////
 }

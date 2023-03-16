@@ -20,6 +20,12 @@ void initSpi ();
 void send_One_Byte_Data_spi (uint8_t data);
 uint8_t send_receive_One_Byte_Data_spi (uint8_t data);
 
+////////////////////////////////////////////////////
+//refference
+/*
+https://stackoverflow.com/questions/53551389/embedded-c-spi-bitbang-code-left-shift-confusion
+*/
+
 #endif
 #ifdef __cplusplus
 }
